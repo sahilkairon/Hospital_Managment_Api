@@ -79,30 +79,3 @@ public class Patient {
 	}
 }
 	
-	
-//	@Override
-//    public boolean equals(Object o) {
-//        if (this == o) return true;
-//        if (!(o instanceof Patient)) return false;
-//       Patient k  = (Patient) o;
-//        return Objects.equals(status, k.status);
-//    }
-//
-//	
-//	@Override
-//	public int hashCode() {
-//		return Objects.hash(name, status);
-//	}
-//	
-//	@Override
-//    public String toString() {
-//        return "User{" +
-//                
-//                ", status='" + status + '\'' +
-//                ", name='" + name ; };
-//    
-//	
-//	
-//}
-//
-
