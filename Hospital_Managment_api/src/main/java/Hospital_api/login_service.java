@@ -33,10 +33,10 @@ public class login_service {
 		
 	}
 	
-	public  ResponseEntity<String> loginmethod(String username, String password) {
+	public  ResponseEntity<String> loginmethod(login k) {
 		try {
 			for(login l:repos.findAll()) {
-				if(l.getUsername().equalsIgnoreCase(username) && l.getPassword().equals(password)) {
+				if(l.getUsername().equalsIgnoreCase(k.getUsername()) && l.getPassword().equals(k.getPassword())) {
 					return  new ResponseEntity<String>("User Logged in", HttpStatus.OK);
 				}
 				 
