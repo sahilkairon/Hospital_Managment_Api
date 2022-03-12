@@ -22,11 +22,11 @@ public class login_controller {
 	}
 	
 	
-//controller for staff login
+//controller for staff login only enter username and password in body
 	
-	@PostMapping(value="/login", params= {"username", "password"})
-	public ResponseEntity<String> loginuser(@RequestParam("username") String username,@RequestParam("password") String password) {
-		return services.loginmethod(username, password);
+	@PostMapping("/login")
+	public ResponseEntity<String> loginuser( @RequestBody login l) {
+		return services.loginmethod(l);
 	}
 }
 
