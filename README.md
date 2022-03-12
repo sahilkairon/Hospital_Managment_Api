@@ -11,8 +11,8 @@ Staff can signup using signup api,
 Staff can login using Login Api.
 
 Patients Record Api:-
-Adding new Patient 
-Changing the status of the patient(from Admitted to Discharged)
+Adding new Patient ,
+Changing the status of the patient(from Admitted to Discharged),
 Getting the list of all the admitted patients,
 Getting the list of all the discharged patients,
 Getting details of specific patient by name,
