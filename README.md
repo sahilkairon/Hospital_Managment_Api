@@ -37,3 +37,7 @@ name,
 role ,
 status.
 
+
+Swagger Documentation(Html):- 
+http://localhost:9191/swagger-ui/index.html
+
